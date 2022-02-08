@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts || Starter</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+      <!--nav-->
+      <nav class="navbar">
+      <div class="nav-center">
+          <!--header-->
+          <div class="nav-header">
+          <button type="button" class="btn nav-btn">
+              <i class="fas fa-align-justify"></i>
+          </button>
+            </div>
+          <!--end of header-->
+          <!--links-->
+          <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="ml.html" class="nav-link">Machine Learning</a>
+                <a href="webdev.html" class="nav-link">Web Development</a>
+                <a href="webdev.html" class="nav-link">CV/Resume</a>
+              <div class="nav-link contact-link">
+                  <a href="contact.html" class="btn">contact</a>
+              </div>
+          </div>
+          <!-- end of links -->
+        </div>
+        </nav>
+      <!--end of nav-->
+      <!-- main -->
+
+      <main class="page">
+          <section class="contact-container">
+              <article class="contact-info">
+                  <h3>Want to get in touch?</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur 
+                      adipisicing elit. Id, debitis. Reprehenderit dicta 
+                      harum possimus corporis!</p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Iure, enim.
+                    </p>
+                    <p>
+                        Lorem ipsum d
+                        consectetur adipisicing elit. Quidem ex fugit id, 
+                        voluptate quos itaque.
+                    </p>
+              </article>
+              <article>
+                  <form  class="form contact-form">
+                      <!-- single form row -->
+                      <div class="form-row">
+                          <label for="name" class="form-label">Your Name: </label>
+                          <input type="text" name="name" id="name" class="form-input">
+                      </div>
+                       <!--end of single form row -->
+                       <!-- single form row -->
+                      <div class="form-row">
+                            <label for="email" class="form-label">Your Email: </label>
+                            <input type="text" name="email" id="email" class="form-input">
+                        </div>
+                         <!--end of single form row -->
+                         <!-- single form row -->
+                      <div class="form-row">
+                            <label for="message" class="form-label">Message: </label>
+                            <textarea name="message" id="message" class="form-textarea"></textarea>
+                        </div>
+                         <!--end of single form row -->
+                         <button type="submit" class="btn btn-block">Submit</button>
+                  </form>
+              </article>
+          </section>
+      </main>
+
+      <!-- end of main -->
+      <!-- footer -->
+      <footer class="page-footer">
+          <p>&copy; 
+              <span id="date"></span>
+            Built by Bramwel Ochieng
+            </p>
+      </footer>
+      <!-- end of footer -->
+      <script src="./js/app.js"></script>
+  </body>
+</html>
